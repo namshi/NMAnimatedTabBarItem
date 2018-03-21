@@ -1,7 +1,7 @@
 
 # NMAnimatedTabBarItem
 
-NMAnimatedTabBarItem is a Swift based UI module library for adding animation to iOS tabbar items and icons. iOS library made by [@Namshi](https://github.com/namshi).
+NMAnimatedTabBarItem is a Swift based UI module library for adding animation to iOS tabbar items and icons. iOS library made by [@Namshi Mobile Team](https://github.com/namshi).
 
 ![Demo](https://github.com/namshi/NMAnimatedTabBarItem/blob/master/Example/NMAnimatedTabBarItem/Images/NMAnimatedTabBarItem.gif)
 
