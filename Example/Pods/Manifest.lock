@@ -1,0 +1,16 @@
+PODS:
+  - NMAnimatedTabBarItem (0.1.0)
+
+DEPENDENCIES:
+  - NMAnimatedTabBarItem (from `../`)
+
+EXTERNAL SOURCES:
+  NMAnimatedTabBarItem:
+    :path: ../
+
+SPEC CHECKSUMS:
+  NMAnimatedTabBarItem: 80560236650659b80cb6934c36f14e5be69b5a90
+
+PODFILE CHECKSUM: 5a95784fb0ae17041be09163363987ebc09d4268
+
+COCOAPODS: 1.4.0

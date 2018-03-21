@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NMAnimatedTabBarItem_Example' do
+  pod 'NMAnimatedTabBarItem', :path => '../'
+
+  target 'NMAnimatedTabBarItem_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

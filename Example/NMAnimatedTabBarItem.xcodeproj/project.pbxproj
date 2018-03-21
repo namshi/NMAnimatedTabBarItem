@@ -1,0 +1,798 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27EF441120610ED700AEB011 /* frame_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EF43ED20610ED500AEB011 /* frame_5.png */; };
+		27EF441220610ED700AEB011 /* frame_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EF43EE20610ED500AEB011 /* frame_9.png */; };
+		27EF441320610ED700AEB011 /* frame_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EF43EF20610ED600AEB011 /* frame_2.png */; };
+		27EF441420610ED700AEB011 /* frame_21.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EF43F020610ED600AEB011 /* frame_21.png */; };
+		27EF441520610ED700AEB011 /* frame_15.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EF43F120610ED600AEB011 /* frame_15.png */; };
+		27EF441620610ED700AEB011 /* frame_16.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EF43F220610ED600AEB011 /* frame_16.png */; };
+		27EF441720610ED700AEB011 /* frame_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EF43F320610ED600AEB011 /* frame_3.png */; };
+		27EF441820610ED700AEB011 /* frame_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EF43F420610ED600AEB011 /* frame_11.png */; };
+		27EF441920610ED700AEB011 /* frame_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EF43F520610ED600AEB011 /* frame_10.png */; };
+		27EF441A20610ED700AEB011 /* frame_29.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EF43F620610ED600AEB011 /* frame_29.png */; };
+		27EF441B20610ED700AEB011 /* frame_14.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EF43F720610ED600AEB011 /* frame_14.png */; };
+		27EF441C20610ED700AEB011 /* frame_28.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EF43F820610ED600AEB011 /* frame_28.png */; };
+		27EF441D20610ED700AEB011 /* frame_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EF43F920610ED600AEB011 /* frame_0.png */; };
+		27EF441E20610ED700AEB011 /* frame_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EF43FA20610ED600AEB011 /* frame_6.png */; };
+		27EF441F20610ED700AEB011 /* frame_30.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EF43FB20610ED600AEB011 /* frame_30.png */; };
+		27EF442020610ED700AEB011 /* frame_23.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EF43FC20610ED600AEB011 /* frame_23.png */; };
+		27EF442120610ED700AEB011 /* frame_18.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EF43FD20610ED600AEB011 /* frame_18.png */; };
+		27EF442220610ED700AEB011 /* frame_24.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EF43FE20610ED600AEB011 /* frame_24.png */; };
+		27EF442320610ED700AEB011 /* frame_17.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EF43FF20610ED600AEB011 /* frame_17.png */; };
+		27EF442420610ED700AEB011 /* frame_26.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EF440020610ED600AEB011 /* frame_26.png */; };
+		27EF442520610ED700AEB011 /* frame_34.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EF440120610ED600AEB011 /* frame_34.png */; };
+		27EF442620610ED700AEB011 /* frame_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EF440220610ED600AEB011 /* frame_7.png */; };
+		27EF442720610ED700AEB011 /* frame_19.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EF440320610ED700AEB011 /* frame_19.png */; };
+		27EF442820610ED700AEB011 /* frame_25.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EF440420610ED700AEB011 /* frame_25.png */; };
+		27EF442920610ED700AEB011 /* frame_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EF440520610ED700AEB011 /* frame_8.png */; };
+		27EF442A20610ED700AEB011 /* frame_20.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EF440620610ED700AEB011 /* frame_20.png */; };
+		27EF442B20610ED700AEB011 /* frame_13.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EF440720610ED700AEB011 /* frame_13.png */; };
+		27EF442C20610ED700AEB011 /* frame_27.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EF440820610ED700AEB011 /* frame_27.png */; };
+		27EF442D20610ED700AEB011 /* frame_22.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EF440920610ED700AEB011 /* frame_22.png */; };
+		27EF442E20610ED700AEB011 /* frame_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EF440A20610ED700AEB011 /* frame_32.png */; };
+		27EF442F20610ED700AEB011 /* frame_33.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EF440B20610ED700AEB011 /* frame_33.png */; };
+		27EF443020610ED700AEB011 /* frame_35.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EF440C20610ED700AEB011 /* frame_35.png */; };
+		27EF443120610ED700AEB011 /* frame_31.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EF440D20610ED700AEB011 /* frame_31.png */; };
+		27EF443220610ED700AEB011 /* frame_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EF440E20610ED700AEB011 /* frame_1.png */; };
+		27EF443320610ED700AEB011 /* frame_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EF440F20610ED700AEB011 /* frame_4.png */; };
+		27EF443420610ED700AEB011 /* frame_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EF441020610ED700AEB011 /* frame_12.png */; };
+		27EF4436206116B100AEB011 /* light_ico_inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EF4435206116B100AEB011 /* light_ico_inactive.png */; };
+		27EF4438206116B800AEB011 /* light_ico_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EF4437206116B800AEB011 /* light_ico_active.png */; };
+		27EF444220612F7000AEB011 /* NMAnimatedTabBarItem.gif in Resources */ = {isa = PBXBuildFile; fileRef = 27EF444120612F7000AEB011 /* NMAnimatedTabBarItem.gif */; };
+		27EF444420612F7F00AEB011 /* namshi-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EF444320612F7F00AEB011 /* namshi-logo.png */; };
+		28B1238EEDE26F02519B9455 /* Pods_NMAnimatedTabBarItem_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59CC921C24ED4C5697FBE25C /* Pods_NMAnimatedTabBarItem_Example.framework */; };
+		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
+		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
+		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
+		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
+		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
+		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		877279BB1D5B014E156F210A /* Pods_NMAnimatedTabBarItem_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D03DB2A589538DC647217727 /* Pods_NMAnimatedTabBarItem_Tests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
+			remoteInfo = NMAnimatedTabBarItem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E8E57D6A55E4910C0D2DD85 /* Pods-NMAnimatedTabBarItem_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NMAnimatedTabBarItem_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NMAnimatedTabBarItem_Example/Pods-NMAnimatedTabBarItem_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		18B87D2AB54B933BF8D023A6 /* Pods-NMAnimatedTabBarItem_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NMAnimatedTabBarItem_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NMAnimatedTabBarItem_Tests/Pods-NMAnimatedTabBarItem_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		20304C580D0108E241E63396 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		214EAA2C7DB723E101083E2D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		27EF43ED20610ED500AEB011 /* frame_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_5.png; sourceTree = "<group>"; };
+		27EF43EE20610ED500AEB011 /* frame_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_9.png; sourceTree = "<group>"; };
+		27EF43EF20610ED600AEB011 /* frame_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_2.png; sourceTree = "<group>"; };
+		27EF43F020610ED600AEB011 /* frame_21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_21.png; sourceTree = "<group>"; };
+		27EF43F120610ED600AEB011 /* frame_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_15.png; sourceTree = "<group>"; };
+		27EF43F220610ED600AEB011 /* frame_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_16.png; sourceTree = "<group>"; };
+		27EF43F320610ED600AEB011 /* frame_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_3.png; sourceTree = "<group>"; };
+		27EF43F420610ED600AEB011 /* frame_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_11.png; sourceTree = "<group>"; };
+		27EF43F520610ED600AEB011 /* frame_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_10.png; sourceTree = "<group>"; };
+		27EF43F620610ED600AEB011 /* frame_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_29.png; sourceTree = "<group>"; };
+		27EF43F720610ED600AEB011 /* frame_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_14.png; sourceTree = "<group>"; };
+		27EF43F820610ED600AEB011 /* frame_28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_28.png; sourceTree = "<group>"; };
+		27EF43F920610ED600AEB011 /* frame_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_0.png; sourceTree = "<group>"; };
+		27EF43FA20610ED600AEB011 /* frame_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_6.png; sourceTree = "<group>"; };
+		27EF43FB20610ED600AEB011 /* frame_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_30.png; sourceTree = "<group>"; };
+		27EF43FC20610ED600AEB011 /* frame_23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_23.png; sourceTree = "<group>"; };
+		27EF43FD20610ED600AEB011 /* frame_18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_18.png; sourceTree = "<group>"; };
+		27EF43FE20610ED600AEB011 /* frame_24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_24.png; sourceTree = "<group>"; };
+		27EF43FF20610ED600AEB011 /* frame_17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_17.png; sourceTree = "<group>"; };
+		27EF440020610ED600AEB011 /* frame_26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_26.png; sourceTree = "<group>"; };
+		27EF440120610ED600AEB011 /* frame_34.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_34.png; sourceTree = "<group>"; };
+		27EF440220610ED600AEB011 /* frame_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_7.png; sourceTree = "<group>"; };
+		27EF440320610ED700AEB011 /* frame_19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_19.png; sourceTree = "<group>"; };
+		27EF440420610ED700AEB011 /* frame_25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_25.png; sourceTree = "<group>"; };
+		27EF440520610ED700AEB011 /* frame_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_8.png; sourceTree = "<group>"; };
+		27EF440620610ED700AEB011 /* frame_20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_20.png; sourceTree = "<group>"; };
+		27EF440720610ED700AEB011 /* frame_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_13.png; sourceTree = "<group>"; };
+		27EF440820610ED700AEB011 /* frame_27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_27.png; sourceTree = "<group>"; };
+		27EF440920610ED700AEB011 /* frame_22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_22.png; sourceTree = "<group>"; };
+		27EF440A20610ED700AEB011 /* frame_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_32.png; sourceTree = "<group>"; };
+		27EF440B20610ED700AEB011 /* frame_33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_33.png; sourceTree = "<group>"; };
+		27EF440C20610ED700AEB011 /* frame_35.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_35.png; sourceTree = "<group>"; };
+		27EF440D20610ED700AEB011 /* frame_31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_31.png; sourceTree = "<group>"; };
+		27EF440E20610ED700AEB011 /* frame_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_1.png; sourceTree = "<group>"; };
+		27EF440F20610ED700AEB011 /* frame_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_4.png; sourceTree = "<group>"; };
+		27EF441020610ED700AEB011 /* frame_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame_12.png; sourceTree = "<group>"; };
+		27EF4435206116B100AEB011 /* light_ico_inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light_ico_inactive.png; sourceTree = "<group>"; };
+		27EF4437206116B800AEB011 /* light_ico_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light_ico_active.png; sourceTree = "<group>"; };
+		27EF444120612F7000AEB011 /* NMAnimatedTabBarItem.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = NMAnimatedTabBarItem.gif; sourceTree = "<group>"; };
+		27EF444320612F7F00AEB011 /* namshi-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "namshi-logo.png"; sourceTree = "<group>"; };
+		59CC921C24ED4C5697FBE25C /* Pods_NMAnimatedTabBarItem_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NMAnimatedTabBarItem_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACD01AFB9204008FA782 /* NMAnimatedTabBarItem_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NMAnimatedTabBarItem_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		607FACE51AFB9204008FA782 /* NMAnimatedTabBarItem_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NMAnimatedTabBarItem_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		BA10ED2B0519CD9C41272FE6 /* Pods-NMAnimatedTabBarItem_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NMAnimatedTabBarItem_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-NMAnimatedTabBarItem_Example/Pods-NMAnimatedTabBarItem_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BC0D7B7055016A23C44BEDDE /* NMAnimatedTabBarItem.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NMAnimatedTabBarItem.podspec; path = ../NMAnimatedTabBarItem.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D03DB2A589538DC647217727 /* Pods_NMAnimatedTabBarItem_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NMAnimatedTabBarItem_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7A503FFA6478DD7DF70220B /* Pods-NMAnimatedTabBarItem_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NMAnimatedTabBarItem_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NMAnimatedTabBarItem_Tests/Pods-NMAnimatedTabBarItem_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		607FACCD1AFB9204008FA782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28B1238EEDE26F02519B9455 /* Pods_NMAnimatedTabBarItem_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607FACE21AFB9204008FA782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877279BB1D5B014E156F210A /* Pods_NMAnimatedTabBarItem_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27EF43EC20610EAC00AEB011 /* FramesIcons */ = {
+			isa = PBXGroup;
+			children = (
+				27EF43F920610ED600AEB011 /* frame_0.png */,
+				27EF440E20610ED700AEB011 /* frame_1.png */,
+				27EF43EF20610ED600AEB011 /* frame_2.png */,
+				27EF43F320610ED600AEB011 /* frame_3.png */,
+				27EF440F20610ED700AEB011 /* frame_4.png */,
+				27EF43ED20610ED500AEB011 /* frame_5.png */,
+				27EF43FA20610ED600AEB011 /* frame_6.png */,
+				27EF440220610ED600AEB011 /* frame_7.png */,
+				27EF440520610ED700AEB011 /* frame_8.png */,
+				27EF43EE20610ED500AEB011 /* frame_9.png */,
+				27EF43F520610ED600AEB011 /* frame_10.png */,
+				27EF43F420610ED600AEB011 /* frame_11.png */,
+				27EF441020610ED700AEB011 /* frame_12.png */,
+				27EF440720610ED700AEB011 /* frame_13.png */,
+				27EF43F720610ED600AEB011 /* frame_14.png */,
+				27EF43F120610ED600AEB011 /* frame_15.png */,
+				27EF43F220610ED600AEB011 /* frame_16.png */,
+				27EF43FF20610ED600AEB011 /* frame_17.png */,
+				27EF43FD20610ED600AEB011 /* frame_18.png */,
+				27EF440320610ED700AEB011 /* frame_19.png */,
+				27EF440620610ED700AEB011 /* frame_20.png */,
+				27EF43F020610ED600AEB011 /* frame_21.png */,
+				27EF440920610ED700AEB011 /* frame_22.png */,
+				27EF43FC20610ED600AEB011 /* frame_23.png */,
+				27EF43FE20610ED600AEB011 /* frame_24.png */,
+				27EF440420610ED700AEB011 /* frame_25.png */,
+				27EF440020610ED600AEB011 /* frame_26.png */,
+				27EF440820610ED700AEB011 /* frame_27.png */,
+				27EF43F820610ED600AEB011 /* frame_28.png */,
+				27EF43F620610ED600AEB011 /* frame_29.png */,
+				27EF43FB20610ED600AEB011 /* frame_30.png */,
+				27EF440D20610ED700AEB011 /* frame_31.png */,
+				27EF440A20610ED700AEB011 /* frame_32.png */,
+				27EF440B20610ED700AEB011 /* frame_33.png */,
+				27EF440120610ED600AEB011 /* frame_34.png */,
+				27EF440C20610ED700AEB011 /* frame_35.png */,
+			);
+			path = FramesIcons;
+			sourceTree = "<group>";
+		};
+		27EF444520612F9400AEB011 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				27EF444320612F7F00AEB011 /* namshi-logo.png */,
+				27EF444120612F7000AEB011 /* NMAnimatedTabBarItem.gif */,
+				27EF4437206116B800AEB011 /* light_ico_active.png */,
+				27EF4435206116B100AEB011 /* light_ico_inactive.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		607FACC71AFB9204008FA782 = {
+			isa = PBXGroup;
+			children = (
+				607FACF51AFB993E008FA782 /* Podspec Metadata */,
+				607FACD21AFB9204008FA782 /* Example for NMAnimatedTabBarItem */,
+				607FACE81AFB9204008FA782 /* Tests */,
+				607FACD11AFB9204008FA782 /* Products */,
+				A4244748F39F4A64919FB9D4 /* Pods */,
+				980EDCF69195FB0B926D3CB6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		607FACD11AFB9204008FA782 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD01AFB9204008FA782 /* NMAnimatedTabBarItem_Example.app */,
+				607FACE51AFB9204008FA782 /* NMAnimatedTabBarItem_Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		607FACD21AFB9204008FA782 /* Example for NMAnimatedTabBarItem */ = {
+			isa = PBXGroup;
+			children = (
+				27EF444520612F9400AEB011 /* Images */,
+				27EF43EC20610EAC00AEB011 /* FramesIcons */,
+				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				607FACD91AFB9204008FA782 /* Main.storyboard */,
+				607FACDC1AFB9204008FA782 /* Images.xcassets */,
+				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				607FACD31AFB9204008FA782 /* Supporting Files */,
+			);
+			name = "Example for NMAnimatedTabBarItem";
+			path = NMAnimatedTabBarItem;
+			sourceTree = "<group>";
+		};
+		607FACD31AFB9204008FA782 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD41AFB9204008FA782 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		607FACE81AFB9204008FA782 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				607FACE91AFB9204008FA782 /* Supporting Files */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		607FACE91AFB9204008FA782 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				607FACEA1AFB9204008FA782 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				BC0D7B7055016A23C44BEDDE /* NMAnimatedTabBarItem.podspec */,
+				20304C580D0108E241E63396 /* README.md */,
+				214EAA2C7DB723E101083E2D /* LICENSE */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		980EDCF69195FB0B926D3CB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59CC921C24ED4C5697FBE25C /* Pods_NMAnimatedTabBarItem_Example.framework */,
+				D03DB2A589538DC647217727 /* Pods_NMAnimatedTabBarItem_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4244748F39F4A64919FB9D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E8E57D6A55E4910C0D2DD85 /* Pods-NMAnimatedTabBarItem_Example.debug.xcconfig */,
+				BA10ED2B0519CD9C41272FE6 /* Pods-NMAnimatedTabBarItem_Example.release.xcconfig */,
+				E7A503FFA6478DD7DF70220B /* Pods-NMAnimatedTabBarItem_Tests.debug.xcconfig */,
+				18B87D2AB54B933BF8D023A6 /* Pods-NMAnimatedTabBarItem_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		607FACCF1AFB9204008FA782 /* NMAnimatedTabBarItem_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "NMAnimatedTabBarItem_Example" */;
+			buildPhases = (
+				A99EF77377842F980AA36D6C /* [CP] Check Pods Manifest.lock */,
+				607FACCC1AFB9204008FA782 /* Sources */,
+				607FACCD1AFB9204008FA782 /* Frameworks */,
+				607FACCE1AFB9204008FA782 /* Resources */,
+				DEE3A47AF11D42760BF80551 /* [CP] Embed Pods Frameworks */,
+				91DB0088C51C36F1245A8C4A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NMAnimatedTabBarItem_Example;
+			productName = NMAnimatedTabBarItem;
+			productReference = 607FACD01AFB9204008FA782 /* NMAnimatedTabBarItem_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		607FACE41AFB9204008FA782 /* NMAnimatedTabBarItem_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "NMAnimatedTabBarItem_Tests" */;
+			buildPhases = (
+				9322AE919DBE21B45056F8C3 /* [CP] Check Pods Manifest.lock */,
+				607FACE11AFB9204008FA782 /* Sources */,
+				607FACE21AFB9204008FA782 /* Frameworks */,
+				607FACE31AFB9204008FA782 /* Resources */,
+				EEF6CFD78999E4709B2194AE /* [CP] Embed Pods Frameworks */,
+				AC2C7BB30CE651ED4B3A626E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
+			);
+			name = NMAnimatedTabBarItem_Tests;
+			productName = Tests;
+			productReference = 607FACE51AFB9204008FA782 /* NMAnimatedTabBarItem_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		607FACC81AFB9204008FA782 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = CocoaPods;
+				TargetAttributes = {
+					607FACCF1AFB9204008FA782 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 8DFDPV79CZ;
+						LastSwiftMigration = 0900;
+					};
+					607FACE41AFB9204008FA782 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 8DFDPV79CZ;
+						LastSwiftMigration = 0900;
+						TestTargetID = 607FACCF1AFB9204008FA782;
+					};
+				};
+			};
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "NMAnimatedTabBarItem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 607FACC71AFB9204008FA782;
+			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				607FACCF1AFB9204008FA782 /* NMAnimatedTabBarItem_Example */,
+				607FACE41AFB9204008FA782 /* NMAnimatedTabBarItem_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		607FACCE1AFB9204008FA782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27EF443220610ED700AEB011 /* frame_1.png in Resources */,
+				27EF442420610ED700AEB011 /* frame_26.png in Resources */,
+				27EF443120610ED700AEB011 /* frame_31.png in Resources */,
+				27EF441A20610ED700AEB011 /* frame_29.png in Resources */,
+				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				27EF442720610ED700AEB011 /* frame_19.png in Resources */,
+				27EF442120610ED700AEB011 /* frame_18.png in Resources */,
+				27EF444220612F7000AEB011 /* NMAnimatedTabBarItem.gif in Resources */,
+				27EF444420612F7F00AEB011 /* namshi-logo.png in Resources */,
+				27EF4436206116B100AEB011 /* light_ico_inactive.png in Resources */,
+				27EF441620610ED700AEB011 /* frame_16.png in Resources */,
+				27EF441720610ED700AEB011 /* frame_3.png in Resources */,
+				27EF442E20610ED700AEB011 /* frame_32.png in Resources */,
+				27EF442B20610ED700AEB011 /* frame_13.png in Resources */,
+				27EF441320610ED700AEB011 /* frame_2.png in Resources */,
+				27EF442620610ED700AEB011 /* frame_7.png in Resources */,
+				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				27EF442A20610ED700AEB011 /* frame_20.png in Resources */,
+				27EF442F20610ED700AEB011 /* frame_33.png in Resources */,
+				27EF442220610ED700AEB011 /* frame_24.png in Resources */,
+				27EF442D20610ED700AEB011 /* frame_22.png in Resources */,
+				27EF442020610ED700AEB011 /* frame_23.png in Resources */,
+				27EF442C20610ED700AEB011 /* frame_27.png in Resources */,
+				27EF441B20610ED700AEB011 /* frame_14.png in Resources */,
+				27EF441C20610ED700AEB011 /* frame_28.png in Resources */,
+				27EF443420610ED700AEB011 /* frame_12.png in Resources */,
+				27EF442320610ED700AEB011 /* frame_17.png in Resources */,
+				27EF441220610ED700AEB011 /* frame_9.png in Resources */,
+				27EF441D20610ED700AEB011 /* frame_0.png in Resources */,
+				27EF443320610ED700AEB011 /* frame_4.png in Resources */,
+				27EF4438206116B800AEB011 /* light_ico_active.png in Resources */,
+				27EF442920610ED700AEB011 /* frame_8.png in Resources */,
+				27EF441F20610ED700AEB011 /* frame_30.png in Resources */,
+				27EF442520610ED700AEB011 /* frame_34.png in Resources */,
+				27EF442820610ED700AEB011 /* frame_25.png in Resources */,
+				27EF441120610ED700AEB011 /* frame_5.png in Resources */,
+				27EF441420610ED700AEB011 /* frame_21.png in Resources */,
+				27EF441820610ED700AEB011 /* frame_11.png in Resources */,
+				27EF441E20610ED700AEB011 /* frame_6.png in Resources */,
+				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				27EF443020610ED700AEB011 /* frame_35.png in Resources */,
+				27EF441920610ED700AEB011 /* frame_10.png in Resources */,
+				27EF441520610ED700AEB011 /* frame_15.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607FACE31AFB9204008FA782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		91DB0088C51C36F1245A8C4A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NMAnimatedTabBarItem_Example/Pods-NMAnimatedTabBarItem_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9322AE919DBE21B45056F8C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NMAnimatedTabBarItem_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A99EF77377842F980AA36D6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NMAnimatedTabBarItem_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC2C7BB30CE651ED4B3A626E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NMAnimatedTabBarItem_Tests/Pods-NMAnimatedTabBarItem_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEE3A47AF11D42760BF80551 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NMAnimatedTabBarItem_Example/Pods-NMAnimatedTabBarItem_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NMAnimatedTabBarItem/NMAnimatedTabBarItem.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NMAnimatedTabBarItem.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NMAnimatedTabBarItem_Example/Pods-NMAnimatedTabBarItem_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEF6CFD78999E4709B2194AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NMAnimatedTabBarItem_Tests/Pods-NMAnimatedTabBarItem_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		607FACCC1AFB9204008FA782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		607FACE11AFB9204008FA782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 607FACCF1AFB9204008FA782 /* NMAnimatedTabBarItem_Example */;
+			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				607FACDA1AFB9204008FA782 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				607FACDF1AFB9204008FA782 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		607FACED1AFB9204008FA782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		607FACEE1AFB9204008FA782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		607FACF01AFB9204008FA782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E8E57D6A55E4910C0D2DD85 /* Pods-NMAnimatedTabBarItem_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8DFDPV79CZ;
+				INFOPLIST_FILE = NMAnimatedTabBarItem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		607FACF11AFB9204008FA782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA10ED2B0519CD9C41272FE6 /* Pods-NMAnimatedTabBarItem_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8DFDPV79CZ;
+				INFOPLIST_FILE = NMAnimatedTabBarItem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		607FACF31AFB9204008FA782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7A503FFA6478DD7DF70220B /* Pods-NMAnimatedTabBarItem_Tests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8DFDPV79CZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		607FACF41AFB9204008FA782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18B87D2AB54B933BF8D023A6 /* Pods-NMAnimatedTabBarItem_Tests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8DFDPV79CZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "NMAnimatedTabBarItem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607FACED1AFB9204008FA782 /* Debug */,
+				607FACEE1AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "NMAnimatedTabBarItem_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607FACF01AFB9204008FA782 /* Debug */,
+				607FACF11AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "NMAnimatedTabBarItem_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607FACF31AFB9204008FA782 /* Debug */,
+				607FACF41AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 607FACC81AFB9204008FA782 /* Project object */;
+}
