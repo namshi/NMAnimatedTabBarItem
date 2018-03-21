@@ -31,7 +31,7 @@ NMAnimatedTabBarItem is a Swift based UI module library for adding animation to 
   s.ios.deployment_target = '9.0'
   s.swift_version = '3.2'
 
-  s.source_files = 'NMAnimatedTabBarItem/Classes/**/*'
+  s.source_files = 'Classes/*'
   
   # s.resource_bundles = {
   #   'NMAnimatedTabBarItem' => ['NMAnimatedTabBarItem/Assets/*.png']

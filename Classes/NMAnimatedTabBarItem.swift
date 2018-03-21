@@ -36,7 +36,7 @@ import UIKit
     open var direction: NMRotationDirection?
     
     /// Frame Animation array list
-    open var animationImages: Array<CGImage> = Array()
+    @nonobjc open var animationImages: Array<CGImage> = Array()
     
     // MARK: NMAnimationKey constants
     
