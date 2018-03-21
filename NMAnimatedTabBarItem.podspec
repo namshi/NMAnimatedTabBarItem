@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NMAnimatedTabBarItem'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'This CocoaPod library provides Tab Bar Item animation in a simple way.'
 
 # This description is used to generate tags and improve search results.
