@@ -24,7 +24,7 @@ NMAnimatedTabBarItem is a Swift based UI module library for adding animation to 
   s.homepage         = 'https://github.com/namshi/NMAnimatedTabBarItem'
   s.screenshots     = 'https://github.com/namshi/NMAnimatedTabBarItem/blob/master/Example/NMAnimatedTabBarItem/Images/NMAnimatedTabBarItem.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'dbalunayak@gmail.com' => 'dbalunayak@gmail.com' }
+  s.author           = { 'Namshi General Trading L.L.C' => 'mobile.dev@namshi.com' }
   s.source           = { :git => 'https://github.com/namshi/NMAnimatedTabBarItem.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
