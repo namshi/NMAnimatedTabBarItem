@@ -95,6 +95,6 @@ You can download the latest files from our [Releases](https://github.com/namshi/
 Check out the Example project.
 
 ## Copyrights
-This library has created by inspiration of [RAMAnimatedTabBarController(https://github.com/Ramotion/animated-tab-bar).
+This library has created by inspiration of [RAMAnimatedTabBarController](https://github.com/Ramotion/animated-tab-bar).
 
 All right reserved. Namshi Team 2018.
