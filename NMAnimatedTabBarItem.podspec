@@ -22,7 +22,7 @@ NMAnimatedTabBarItem is a Swift based UI module library for adding animation to 
                        DESC
 
   s.homepage         = 'https://github.com/namshi/NMAnimatedTabBarItem'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots     = 'https://github.com/namshi/NMAnimatedTabBarItem/blob/master/Example/NMAnimatedTabBarItem/Images/NMAnimatedTabBarItem.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'dbalunayak@gmail.com' => 'dbalunayak@gmail.com' }
   s.source           = { :git => 'https://github.com/namshi/NMAnimatedTabBarItem.git', :tag => s.version.to_s }

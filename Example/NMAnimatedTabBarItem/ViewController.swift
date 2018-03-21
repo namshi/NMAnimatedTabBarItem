@@ -35,7 +35,7 @@ class ViewController: UITabBarController , UITabBarControllerDelegate {
     //MARK: - UITabBarControllerDelegate
     
     func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
-        let indexOfTab =  tabBarController.viewControllers?.index(of: viewController)
+        let indexOfTab = tabBarController.viewControllers?.index(of:viewController)
         var animationType:NMAnimationtype?
         switch indexOfTab {
         case TabBarPage.history.rawValue?:
@@ -56,7 +56,7 @@ class ViewController: UITabBarController , UITabBarControllerDelegate {
         default:
             break
         }
-        animatedTabBar.animateTabBarItem(self.tabBar, indexOfTab!,animationType!)
+        animatedTabBar.animateTabBarItem(self.tabBar, indexOfTab!, animationType!)
         return true
     }
 
