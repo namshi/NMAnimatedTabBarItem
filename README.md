@@ -13,7 +13,7 @@ NMAnimatedTabBarItem is a Swift based UI module library for adding animation to 
 
 ## Installation
 
-Just add the NMAnimatedTabBarItem folder to your project. or use [CocoaPods](https://cocoapods.org) with Podfile:
+Just add the NMAnimatedTabBarItem folder to your project. or use [CocoaPods](https://cocoapods.org/pods/NMAnimatedTabBarItem) with Podfile:
 ``` ruby
 pod 'NMAnimatedTabBarItem'
 ```
