@@ -45,7 +45,7 @@ func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewC
 4. Find the index of selected tab and call animateTabBarItem.
 ```swift
 let indexOfTab = tabBarController.viewControllers?.index(of:viewController)
-animatedTabBar.animateTabBarItem(self.tabBar, indexOfTab!, NMAnimationtype.Bounce)
+animatedTabBar.animateTabBarItem(self.tabBar, indexOfTab!, 2 , NMAnimationtype.Bounce)
 ```
 4. Make sure UITabBar item images are added.
 

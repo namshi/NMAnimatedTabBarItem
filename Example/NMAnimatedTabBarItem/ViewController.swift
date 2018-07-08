@@ -56,7 +56,7 @@ class ViewController: UITabBarController , UITabBarControllerDelegate {
         default:
             break
         }
-        animatedTabBar.animateTabBarItem(self.tabBar, indexOfTab!, animationType!)
+        animatedTabBar.animateTabBarItem(self.tabBar, indexOfTab!,2 , animationType!)
         return true
     }
 

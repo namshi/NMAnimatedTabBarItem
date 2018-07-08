@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/balu/Documents/GitHub/NMAnimatedTabBarItem/Example/build/Debug-iphoneos/NMAnimatedTabBarItem/NMAnimatedTabBarItem.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/balu/Documents/GitHub/NMAnimatedTabBarItem/Example/build/Pods.build/Debug-iphoneos/NMAnimatedTabBarItem.build/unextended-module.modulemap',
+    }]
+  }]
+}

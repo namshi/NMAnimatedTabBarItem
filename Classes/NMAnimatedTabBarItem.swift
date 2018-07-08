@@ -46,17 +46,17 @@ import UIKit
         static let KeyFrame = "contents"
     }
     
-    @objc public func animateTabBarItem(_ tabBar:UITabBar,_ tabIndex:Int,_ animationType:NMAnimationtype) {
+    @objc public func animateTabBarItem(_ tabBar:UITabBar,_ tabIndex:Int, _ repeatCount:Float, _ animationType:NMAnimationtype) {
         if let selectedItemImage : UIImageView = tabBar.subviews[tabIndex+1].subviews.first as? UIImageView {
             switch animationType {
             case NMAnimationtype.Bounce:
-                self.playBounceAnimation(selectedItemImage)
+                self.playBounceAnimation(selectedItemImage, repeatCount)
             case NMAnimationtype.Rotation:
-                self.playRotationAnimation(selectedItemImage)
+                self.playRotationAnimation(selectedItemImage, repeatCount)
             case NMAnimationtype.Transition:
                 self.playTransitionAnimations(selectedItemImage)
             case NMAnimationtype.Frame:
-                self.playFrameAnimation(selectedItemImage);
+                self.playFrameAnimation(selectedItemImage, repeatCount)
             default:
                 break
             }
@@ -81,7 +81,7 @@ import UIKit
         })
     }
     
-    fileprivate func playRotationAnimation(_ icon: UIImageView) {
+    fileprivate func playRotationAnimation(_ icon: UIImageView, _ repeatCount:Float) {
         let rotate = CABasicAnimation(keyPath:NMAnimationKeys.Rotation)
         rotate.fromValue = 0.0
         var toValue = CGFloat.pi * 2
@@ -90,18 +90,20 @@ import UIKit
         }
         rotate.toValue = toValue
         rotate.duration = TimeInterval(duration)
+        rotate.repeatCount = repeatCount;
         icon.layer.add(rotate, forKey: nil)
     }
     
-    fileprivate func playBounceAnimation(_ icon: UIImageView) {
+    fileprivate func playBounceAnimation(_ icon: UIImageView, _ repeatCount:Float) {
         let bounce = CAKeyframeAnimation(keyPath: NMAnimationKeys.Scale)
         bounce.values = [1.0, 1.4, 0.9, 1.15, 0.95, 1.02, 1.0]
         bounce.duration = TimeInterval(duration)
+        bounce.repeatCount = repeatCount;
         bounce.calculationMode = kCAAnimationCubic
         icon.layer.add(bounce, forKey: nil)
     }
     
-    fileprivate func playFrameAnimation(_ icon: UIImageView) {
+    fileprivate func playFrameAnimation(_ icon: UIImageView, _ repeatCount:Float) {
         if self.animationImages.count == 0 {
             fatalError("images list is empty")
         }
@@ -109,7 +111,7 @@ import UIKit
         frame.calculationMode = kCAAnimationDiscrete
         frame.duration = TimeInterval(duration)
         frame.values = self.animationImages
-        frame.repeatCount = 1
+        frame.repeatCount = repeatCount;
         frame.isRemovedOnCompletion = false
         frame.fillMode = kCAFillModeForwards
         icon.layer.add(frame, forKey: nil)
