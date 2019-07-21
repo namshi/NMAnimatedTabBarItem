@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "f01b92ca8930f4ed0073b216df45ddad"
+build_time: [1563710877, 778315000]
+inputs:
+  "/Users/balunaik/Documents/NMAnimatedTabBarItem/Classes/NMRotationDirection.swift": [1563710486, 170645645]
+  "/Users/balunaik/Documents/NMAnimatedTabBarItem/Classes/NMAnimationtype.swift": [1563710486, 170535710]
+  "/Users/balunaik/Documents/NMAnimatedTabBarItem/Classes/NMAnimatedTabBarItem.swift": [1563710842, 166997300]

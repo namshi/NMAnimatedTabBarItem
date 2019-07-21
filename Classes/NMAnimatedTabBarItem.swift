@@ -27,7 +27,7 @@ import UIKit
 @objc open class NMAnimateTabBarItem: NSObject {
     
     ///  Options for animating. Default transitionFlipFromRight
-    open var transitionOptions: UIViewAnimationOptions = UIViewAnimationOptions.transitionFlipFromRight
+    open var transitionOptions: UIView.AnimationOptions = UIView.AnimationOptions.transitionFlipFromRight
     
     /// The duration of the animation. Default 0.5
     open var duration: CGFloat = 0.5
@@ -99,7 +99,7 @@ import UIKit
         bounce.values = [1.0, 1.4, 0.9, 1.15, 0.95, 1.02, 1.0]
         bounce.duration = TimeInterval(duration)
         bounce.repeatCount = repeatCount;
-        bounce.calculationMode = kCAAnimationCubic
+        bounce.calculationMode = CAAnimationCalculationMode.cubic
         icon.layer.add(bounce, forKey: nil)
     }
     
@@ -108,12 +108,12 @@ import UIKit
             fatalError("images list is empty")
         }
         let frame = CAKeyframeAnimation(keyPath: NMAnimationKeys.KeyFrame)
-        frame.calculationMode = kCAAnimationDiscrete
+        frame.calculationMode = CAAnimationCalculationMode.discrete
         frame.duration = TimeInterval(duration)
         frame.values = self.animationImages
         frame.repeatCount = repeatCount;
         frame.isRemovedOnCompletion = false
-        frame.fillMode = kCAFillModeForwards
+        frame.fillMode = CAMediaTimingFillMode.forwards
         icon.layer.add(frame, forKey: nil)
     }
     

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NMAnimatedTabBarItem'
-  s.version          = '1.0.0'
+  s.version          = '2.0.0'
   s.summary          = 'This CocoaPod library provides Tab Bar Item animation in a simple way.'
 
 # This description is used to generate tags and improve search results.
@@ -28,8 +28,8 @@ NMAnimatedTabBarItem is a Swift based UI module library for adding animation to 
   s.source           = { :git => 'https://github.com/namshi/NMAnimatedTabBarItem.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
-  s.swift_version = '4.1 '
+  s.ios.deployment_target = '10.0'
+  s.swift_version = '4.2'
 
   s.source_files = 'Classes/*'
   
