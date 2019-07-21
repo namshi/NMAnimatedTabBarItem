@@ -7,9 +7,9 @@ NMAnimatedTabBarItem is a Swift based UI module library for adding animation to 
 
 ## Requirements
 
-- iOS 9.0+
+- iOS 10.0+
 - xCode 9
-- Swift 3.2
+- Swift 4.2
 
 ## Installation
 
