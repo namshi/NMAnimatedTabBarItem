@@ -35,14 +35,14 @@ class ViewController: UITabBarController , UITabBarControllerDelegate {
     //MARK: - UITabBarControllerDelegate
     
     func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
-        let indexOfTab = tabBarController.viewControllers?.index(of:viewController)
+        let indexOfTab = tabBarController.viewControllers?.firstIndex(of:viewController)
         var animationType:NMAnimationtype?
         switch indexOfTab {
         case TabBarPage.history.rawValue?:
             animationType = NMAnimationtype.Bounce
         case TabBarPage.contact.rawValue?:
             animationType = NMAnimationtype.Transition
-            animatedTabBar.transitionOptions = UIViewAnimationOptions.transitionFlipFromBottom
+            animatedTabBar.transitionOptions = UIView.AnimationOptions.transitionFlipFromBottom
         case TabBarPage.diamond.rawValue?:
             animationType = NMAnimationtype.Frame
             var imagesArray :[String] = []
